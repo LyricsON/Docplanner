@@ -1,0 +1,465 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&family=Work+Sans:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@300&display=swap");
+nav{
+    display: flex;
+    position: fixed;
+    width: 100%;
+    justify-content: space-around;
+    margin-top: -8px;
+    margin-left: -8px;
+    background-color:#fff;
+    margin-top: -103px;
+    z-index: 1;
+}
+.docimg img{
+    width: 268px;
+    height: 33px;
+    position: absolute;
+    left: 272px;
+    top: 14px;
+}
+.aa{
+    display: flex;
+    margin-top: 20px;
+}
+li{
+    list-style: none;
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 30px;
+    color: #ababab;
+}
+.laa{
+    margin-left: 22px;
+}
+#about{
+    margin-left: 36px;
+    color: #00b39b;
+    text-decoration: none;
+}
+.ab{
+    position: absolute;
+    right: 273px; 
+    top: 50px;
+    box-shadow: 0 5px 10px 0 #d3cfc9;
+    padding-left: 0px;
+    width: 220px;
+    height: 220px;
+    display: none;
+    background-color: #FFFFFF;
+}
+.laa:hover .ab{
+    display: block;
+}
+.lab{
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 16px;
+}
+#mar{
+    margin-top: 9px;
+}
+#hr{
+    margin-bottom: 3px;
+}
+.ab>li:hover{
+    background-color: #f6f8f8;
+}
+li:hover{
+    color: #00b39b;
+    cursor: pointer;
+}
+.docimg:hover{
+    cursor: pointer;
+}
+.title{
+    text-align: center;
+    margin-top: 103px;
+    margin-left: -16px;
+}
+.tit{
+    font-family: "Work Sans", Arial, sans-serif;
+    font-size: 33.5px;
+    font-weight: 300;
+    line-height: 44.2px;
+    color: #00bfa5;
+}
+.para{
+    display: flex;
+    width: 1015px;
+    justify-content: space-around;
+    margin-left: 243px;
+    margin-top: 42px;
+    margin-bottom: 20px;
+}
+.p1,.p2 {
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    color: #747474;
+    width: 477.5px;
+    height: 157.6px;
+}
+.p2{
+    margin-left: -20px;
+}
+.tsawer{
+    display: flex;
+    justify-content: space-between;
+    width: 980px;
+    margin-left: 260px;
+    
+}
+.teswira1{
+    background-color: #00CCB1;
+}
+.teswira2{
+    background-color: #3D83DF;
+}
+.teswira3{
+    background-color: #1B2734;
+}
+.tt{
+    border-radius: 10px;
+    width: 251.31px;
+    height: 285px;
+    border-radius: 10px;
+    padding: 31px;   
+}
+.tt h1{
+    font-family: "Work Sans", Arial, sans-serif;
+    font-size: 26px;
+    line-height: 33,8px;
+    font-weight: 400;
+    color: #fff;
+    letter-spacing: -0.3px;
+}
+.tt img{
+    margin-bottom: -11px;
+}
+.tt h2{
+    font-family: "Work Sans", Arial, sans-serif;
+    font-size: 24px;
+    line-height: 28.8px;
+    font-weight: 300;
+    color: #fff;
+    letter-spacing: -0.3px;
+}
+.bolden{
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 19.2px;
+    line-height: 24.96px;
+    font-weight: 400;
+    text-transform: none;
+    text-decoration: underline;
+    cursor: pointer;
+    background: transparent;
+    border: 0;
+    outline: 0;
+    color: #fff;
+}
+option{
+    font-weight: normal;
+    display: block;
+    white-space: nowrap;
+    min-height: 1.2em;
+    padding: 0px 2px 1px;
+    font-size: 1rem;
+    line-height: 1.2;
+    color: #333;
+}
+.bl{
+    margin-top: 60px;
+}
+.bl1{
+    margin-top: 25px;
+}
+.bl2{
+    margin-top: 10px;
+}
+.ss{
+    float: left;
+    width: 33%;
+    font-size: 1.625em;
+    margin: 0.25em 0 0.35em;
+    padding-right: 1em;
+}
+.sponlogo{
+    margin-top: 5px;
+}
+.sponsors{
+    display: flex;
+    justify-content: space-between;
+    width: 1015px;
+    height: 156px;;
+    margin-left: 268px;
+    margin-top: 42px;
+}
+.sponlogo > a > img {
+    filter: grayscale(100%);
+    height: 25px;
+    width: 130px;
+    margin: 10px;
+    opacity: 0.55;
+}
+.sponlogo > a > svg {
+    height: 25px;
+    width: 130px;
+    margin: 10px; 
+    fill: hsla(0,0%,67%,.7);
+}
+.sponlogo > a{
+    height: 30px;
+    width: 150px;
+}
+.sponlogo > a > img:hover {
+    filter: grayscale(0%);
+}
+.sponlogo > a > svg:hover {  
+    fill: #00c3a5;
+}
+#weareGC{
+    height: 100px;
+    width: 500px;
+    font-size: 16px;
+    font-family: "Work Sans", Arial, sans-serif;
+    line-height: 33.8px;
+    font-weight: 300;
+    color: #00B39B;
+    margin-right: 90px;
+}
+.omm {
+    margin-top: 70px;
+    background: #e5faf8;
+    background-image: linear-gradient(-45deg,rgba(0,204,177,.01) 5%,rgba(61,199,223,.1));
+    overflow: hidden;
+    width: 100%;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+}
+.bou{
+    display: flex;
+    width: 1000px;
+    justify-content: space-between;
+}
+.isar:before {
+    content: "";
+    position: absolute;
+    left: 125px;
+    top: 1365px;
+    background: url(https://www.docplanner.com/img/logo.png) no-repeat;
+    width: 465px;
+    height: 314px;
+    pointer-events: none;
+}
+.isar{
+    width: 497.5px;
+    height: 201.2px;
+}
+.isar>h1{
+    width: 477.5px;
+    height: 88.4px;
+    margin-top: 70px;
+    font-family: "Work Sans", Arial, sans-serif;
+    font-size: 34px;
+    font-weight: 300;
+    line-height: 44.2px;
+    color: #00bfa5;
+}
+.isar>p{
+    width: 415px;
+    height: 48px;
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+}
+.imin{
+    width: 497.5px;
+    height: 500px;
+    display: flex;
+    justify-content: space-around;
+}
+.car{
+    height: 230px;
+    width: 208.75px;
+    background-color: #FFFFFF;
+    text-align: center;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+    box-shadow: 0 1px 4px 0 rgb(0 0 0 / 5%);
+}
+.foukimin{
+    margin-top: 20px;
+}
+.foukisar{
+    margin-top: 50px;
+}
+.lou{
+    margin-top: 20px;
+}
+.foukimin>img, .loutaimin>img, .loutaisar>img{
+    margin-top: 40px;
+}
+.foukisar>img{
+    margin-top: 15px;
+}
+.car>h3{
+    font-family: "Work Sans", Arial, sans-serif;
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 31.2px;
+    color: #00bfa5;
+    margin-bottom: -5px;
+    margin-top: 10px;
+}
+.car>p{
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 16.9px;
+    color: rgb(116, 116, 116);
+}
+.bag{
+    margin: 0 auto;
+    height: 172.4px;
+    width: 460px;
+    text-align: center;
+}
+.bag>h1{
+    margin-top: 80px;
+    font-family: "Work Sans", Arial, sans-serif;
+    font-size: 30px;
+    font-weight: 300;
+    line-height: 39px;
+    color: #00bfa5;
+}
+.bag>p{
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    color: rgb(116, 116, 116);
+}
+.tabb{
+    height: 1110.9px;
+    width: 995px;
+    margin: 0 auto;
+}
+.tab{
+    height: 369px;
+    width: 995px;
+    text-align: center;
+    display: flex;
+    margin: 0 auto;
+}
+.tab1{
+    margin-top: 80px;
+}
+
+.ktiba{
+    display: flex;
+    justify-content: space-around;
+}
+.tes{
+    border: 1px solid rgba(0,0,0,.03);
+    border-radius: 6px;
+    margin: 10px;
+    height: 347.425px;
+    width: 309px;
+    text-align: center;
+}
+.tes:hover{
+    cursor: pointer;
+    box-shadow: 0 20px 50px 0 rgb(0 0 0 / 13%);
+}
+.ktiba{
+    width: 270.8px;
+    height: 30px;
+    margin-top: 15px;
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    color: rgb(116, 116, 116);
+    display: flex;
+    justify-content: space-between;
+    margin-left: 20px;
+}
+.tes>a>img{
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+}
+.kars{
+    border-radius: 4px;
+    background-color: #3d83df;
+    height: 20px;
+    width: 103.675px;
+    color: #fff;
+    text-align: center;
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 10px;
+    font-weight: 700;
+    line-height: 10px;
+    letter-spacing: .04em;
+    text-transform: uppercase;
+    padding-top: 10px;
+
+}
+.kars:hover{
+    background-color: #1662c6;
+}
+.loutaa{
+    text-align: center;
+    margin-top: 80px;
+}
+.loutaa>h1{
+    font-family: "Work Sans", Arial, sans-serif;
+    font-size: 30px;
+    font-weight: 300;
+    line-height: 39px;
+    color:rgb(51, 51, 51);
+    margin-bottom: 30px;
+}
+.karss{
+    border-radius: 4px;
+    background: #3d83df;
+    font-family: Roboto,Arial,sans-serif;
+    line-height: 12px;
+    color: #fff;
+    font-weight: 700;
+    letter-spacing: .04em;
+    font-size: 12px;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 1.1666666667em 1.5em;
+}
+.karss:hover{
+    cursor: pointer;
+    background-color: #1662c6;
+}
+footer{
+    margin-top: 100px;
+    border-top: 1px solid #eef2f2;
+    text-align: center;
+    padding: 1em 0;
+}
+footer>p{
+    font-family: Roboto,Arial,sans-serif;
+    line-height: 15.6px;
+    color: rgb(171, 171, 171);
+    font-weight: 400;
+    font-size: 12px;
+}
+.aaa{
+    margin-top: 15px;
+}
+.bbb{
+    margin-top: -5px;
+    margin-bottom: -5px;
+}
